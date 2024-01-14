@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Loco Moco Kapolei</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/underscore@1.12.0/underscore-min.js"></script>
+  <script type="text/javascript" src="../data/menu-data.js"></script>
+  <script type="text/javascript" src="../data/globalVars.js"></script>
+  <script type="text/javascript" src="../data/header.js"></script>
+  <script type="text/javascript" src="../data/htmlStrings.js"></script>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <div>
+    <div id="header"></div>
+    <div id="mainList" style="padding: 2rem">
+      <hr>
+      <h1 class="pageTitle">Lunch Menu</h1>
+      <hr>
+      <br>
+      <div id="lunchContent"></div>
+      <br>
+    </div>
+    <div id="footer"></div>
+  </div>
+</body>
+</html>
+
+<script type="text/javascript">
+buildHeader();
+buildHTMLBasic('footer', footerText);
+buildHTMLBasic('lunchContent', lunchContentText);
+updatePrices(lunchPrices);
+buildHTMLByClass('comboPlateReg', comboPlatePrices.reg);
+buildHTMLByClass('chickenStirFryPrice', lunchWokPlates[1].price);
+buildHTMLByClass('saiminBBQChickenPrice', lunchWokPlates[4].price);
+buildHTMLstarter();
+</script>
