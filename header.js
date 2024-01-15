@@ -4,7 +4,7 @@ function buildHeader() {
     let element = document.createElement('div');
     element.innerHTML +=
     '<div class="ui fluid inverted menu" id="menuBar"> \
-        <a class="biggerfont activeLogo item" style="padding-left: 0.9rem; padding-right: 0.95rem" href="https://locomoco808.github.io/kapolei"><img class="ui small spaced image" src="../images/loco-moco-logo.png"></a> \
+        <a class="biggerfont activeLogo item" style="padding-left: 0.9rem; padding-right: 0.95rem" href="https://locomoco808.github.io/kapolei"><img class="ui small spaced image" src="images/loco-moco-logo.png"></a> \
         <div class="right menu"> \
           <a class="biggerfont activeFull item" href="https://locomoco808.github.io/kapolei">Full Menu</a> \
           <a class="biggerfont activeHouseFavs item" href="https://locomoco808.github.io/kapolei/houseFavs">House Favorites</a> \
