@@ -11,70 +11,70 @@ const houseFavsContentText =
 '<div class="ui center aligned container"> \
   <div class="ui stackable centered cards"> \
     <div class="ui centered card"> \
-      <div class="image"><img src="images/lunch/4-chickenKatsu.jpg"></div> \
+      <div class="image"><img src="../images/lunch/4-chickenKatsu.jpg"></div> \
       <div class="content"> \
         <div class="header">Chicken Katsu</div> \
         <div class="description"><span class="tier1reg"></span></div> \
       </div> \
     </div> \
     <div class="ui centered card"> \
-      <div class="image"><img src="images/lunch/10-mochikoChicken.jpg"></div> \
+      <div class="image"><img src="../images/lunch/10-mochikoChicken.jpg"></div> \
       <div class="content"> \
         <div class="header">Mochiko Chicken</div> \
         <div class="description"><span class="tier1reg"></span></div> \
       </div> \
     </div> \
     <div class="ui centered card"> \
-      <div class="image"><img src="images/lunch/bbqChicken.png"></div> \
+      <div class="image"><img src="../images/lunch/bbqChicken.png"></div> \
       <div class="content"> \
         <div class="header">BBQ Chicken</div> \
         <div class="description"><span class="tier1reg"></span></div> \
       </div> \
     </div> \
     <div class="ui centered card"> \
-      <div class="image"><img src="images/lunch/garlicChicken.png"></div> \
+      <div class="image"><img src="../images/lunch/garlicChicken.png"></div> \
       <div class="content"> \
         <div class="header">Garlic Chicken</div> \
         <div class="description"><span class="tier1reg"></span></div> \
       </div> \
     </div> \
     <div class="ui centered card"> \
-      <div class="image"><img src="images/lunch/5-locoMoco.jpg"></div> \
+      <div class="image"><img src="../images/lunch/5-locoMoco.jpg"></div> \
       <div class="content"> \
         <div class="header">Loco Moco</div> \
         <div class="description"><span class="tier2reg"></span></div> \
       </div> \
     </div> \
     <div class="ui centered card"> \
-      <div class="image"><img src="images/lunch/13-beefStew.jpg"></div> \
+      <div class="image"><img src="../images/lunch/13-beefStew.jpg"></div> \
       <div class="content"> \
         <div class="header">Beef Stew</div> \
         <div class="description"><span class="tier2reg"></span></div> \
       </div> \
     </div> \
     <div class="ui centered card"> \
-      <div class="image"><img src="images/lunch/hamburgerSteak.png"></div> \
+      <div class="image"><img src="../images/lunch/hamburgerSteak.png"></div> \
       <div class="content"> \
         <div class="header">Hamburger Steak</div> \
         <div class="description"><span class="tier2reg"></span></div> \
       </div> \
     </div> \
     <div class="ui centered card"> \
-      <div class="image"><img src="images/lunch/14-teriyakiSteak.jpg"></div> \
+      <div class="image"><img src="../images/lunch/14-teriyakiSteak.jpg"></div> \
       <div class="content"> \
         <div class="header">Teriyaki Steak</div> \
         <div class="description"><span class="tier2reg"></span></div> \
       </div> \
     </div> \
     <div class="ui centered card"> \
-      <div class="image"><img src="images/lunch/16-chickenStirFry.jpg"></div> \
+      <div class="image"><img src="../images/lunch/16-chickenStirFry.jpg"></div> \
       <div class="content"> \
         <div class="header">Chicken Stir Fry</div> \
         <div class="description"><span class="chickenStirFryPrice"></span></div> \
       </div> \
     </div> \
     <div class="ui centered card"> \
-      <div class="image"><img src="images/lunch/11-bbqChickenWithFriedSaimin.jpg"></div> \
+      <div class="image"><img src="../images/lunch/11-bbqChickenWithFriedSaimin.jpg"></div> \
       <div class="content"> \
         <div class="header">Fried Saimin w/ BBQ Chicken</div> \
         <div class="description"><span class="saiminBBQChickenPrice"></span></div> \
@@ -158,21 +158,21 @@ const lunchContentText =
 <div class="ui center aligned container"> \
   <div class="ui three centered cards"> \
     <div class="ui centered card"> \
-      <div class="image"><img src="images/lunch/4-chickenKatsu.jpg"></div> \
+      <div class="image"><img src="../images/lunch/4-chickenKatsu.jpg"></div> \
       <div class="content"> \
         <div class="header">Chicken Katsu</div> \
         <div class="description"><span class="tier1reg"></span></div> \
       </div> \
     </div> \
     <div class="ui centered card"> \
-      <div class="image"><img src="images/lunch/5-locoMoco.jpg"></div> \
+      <div class="image"><img src="../images/lunch/5-locoMoco.jpg"></div> \
       <div class="content"> \
         <div class="header">Loco Moco</div> \
         <div class="description"><span class="tier2reg"></span></div> \
       </div> \
     </div> \
     <div class="ui centered card"> \
-      <div class="image"><img src="images/lunch/13-beefStew.jpg"></div> \
+      <div class="image"><img src="../images/lunch/13-beefStew.jpg"></div> \
       <div class="content"> \
         <div class="header">Beef Stew</div> \
         <div class="description"><span class="tier2reg"></span></div> \
@@ -257,14 +257,14 @@ const lunchContentText =
   <div class="ui center aligned container" style="width: 50%"> \
     <div class="ui two centered cards"> \
       <div class="ui centered card"> \
-        <div class="medium image"><img src="images/lunch/16-chickenStirFry.jpg"></div> \
+        <div class="medium image"><img src="../images/lunch/16-chickenStirFry.jpg"></div> \
         <div class="content"> \
           <div class="header">Chicken Stir Fry</div> \
           <div class="description"><span class="chickenStirFryPrice"></span></div> \
         </div> \
       </div> \
       <div class="ui centered card"> \
-        <div class="image"><img src="images/lunch/11-bbqChickenWithFriedSaimin.jpg"></div> \
+        <div class="image"><img src="../images/lunch/11-bbqChickenWithFriedSaimin.jpg"></div> \
         <div class="content"> \
           <div class="header">Fried Saimin w/ BBQ Chicken</div> \
           <div class="description"><span class="saiminBBQChickenPrice"></span></div> \
