@@ -3,8 +3,8 @@ const footerText =
     <strong>Loco Moco Drive Inn</strong> <br> \
     Kapolei Shopping Center <br> \
     <a href="https://maps.app.goo.gl/KTj1uk7Ngc1Fp32dA" style="color: tan;">590 Farrington Hwy, Kapolei, HI 96707</a> <br> \
-    <a href="tel:8086762888" style="color: tan;">(808) 111-1111</a> <br> \
-    <strong>Everyday</strong> 10:00am - 8:30pm<br> \
+    <a href="tel:8086740788" style="color: tan;">(808) 674-0788</a> <br> \
+    <strong>Everyday</strong> 9:30am - 8:00pm<br> \
  </div>';
 
 const houseFavsContentText =
