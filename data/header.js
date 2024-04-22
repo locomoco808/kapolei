@@ -22,7 +22,7 @@ function buildHeader() {
     // <p style="text-align: center;"><strong>Phone Orders</strong>: Call <a class="red" href="tel:8086762888">(808) 676-2888</a></p> \
     // <hr> \
     ;
-    if (href.includes('housefavs')) {
+    if (href.includes('house')) {
         currentDataSet = lunch;
         element.innerHTML = element.innerHTML.replace("activeFull", "");
         element.innerHTML = element.innerHTML.replace("activeHouseFavs", "active");

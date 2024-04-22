@@ -54,10 +54,12 @@ function buildHTMLforMenuPriceList(data, id) {
 }
 
 function buildHTMLstarter() {
-    let href = window.location.href;
-    console.log(currentDataSet);
-    currentDataSet = lunch;
-    for (let i = 0; i < currentDataSet.length; i++) {
-        buildHTMLforMenuPriceList(currentDataSet[i], `list${i}`);
+    // let href = window.location.href;
+    //console.log(currentDataSet);
+    if(document.getElementById('list0')){
+      currentDataSet = lunch;
+      for (let i = 0; i < currentDataSet.length; i++) {
+          buildHTMLforMenuPriceList(currentDataSet[i], `list${i}`);
+      }
     }
 }

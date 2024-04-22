@@ -148,7 +148,6 @@ const lunchContentText =
   <div class="ui list"> \
     <div class="item"><div class="content">Deep Fried Shrimp</div></div> \
     <div class="item"><div class="content">Deep Fried Fish</div></div> \
-    <div class="item"><div class="content">Deep Fried Scallop</div></div> \
     <div class="item"><div class="content">Shrimp Curry</div></div> \
     <div class="item"><div class="content">Garlic Shrimp</div></div> \
     <div class="item"><div class="content">Grilled Garlic Fish</div></div> \
@@ -225,12 +224,6 @@ const lunchContentText =
         <div class="item"><div class="content">Teriyaki Pork</div></div> \
       </div> \
     </div> \
-  </div> \
-  <h2>Seafood Platter</h2> \
-  <div class="ui bulleted list"> \
-    <div class="item"><div class="content">Deep Fried Fish</div></div> \
-    <div class="item"><div class="content">Deep Fried Shrimp</div></div> \
-    <div class="item"><div class="content">Scallops</div></div> \
   </div> \
 </div> \
 </div> \
